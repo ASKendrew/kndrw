@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 module.exports = {
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
-    pathPrefix: `/blog`,
+        pathPrefix: `/blog/`,
 },
     plugins: [
         /**

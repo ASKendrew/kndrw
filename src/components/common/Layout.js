@@ -48,7 +48,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 </div>
                                 <div className="site-mast-right">
                                     { site.twitter && <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="https://kndrw.co.uk/blog/images/icons/twitter.svg" alt="Twitter" /></a>}
-                                    { site.facebook && <a href={ facebookUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="https://kndrw.co.uk/blog/images/icons/facebook.svg" alt="Facebook" /></a>
                                 </div>
                             </div>
                             <nav className="site-nav">

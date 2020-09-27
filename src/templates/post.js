@@ -29,6 +29,7 @@ const Post = ({ data, location }) => {
                 <div className="container">
                     <article className="content">
                      <h1 className="content-title">{post.title}</h1>
+<section className="post-card-excerpt">{post.excerpt}</section>
                         { post.feature_image ?
                             <figure className="post-feature-image">
                                 <img src={ post.feature_image } alt={ post.title } />
